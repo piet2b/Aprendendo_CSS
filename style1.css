@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://i.pinimg.com/474x/89/70/52/8970520f452d7a3f878c9b7c369f52dd.jpg");
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-wrapper {
+  padding: 10px 30px;
+}
+p {
+  text-align: justify;
+}
+h1 {
+  text-align: center;
+}
+.highlight {
+  font-weight: 700;
+  color: forestgreen;
+}
+h1,
+h2 {
+  font-weight: 400;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ul.e {
+  list-style-image: url("sqpurple.gif");
+}
+.card {
+  border-radius: 20px;
+  margin-left: 10px;
+  height: 200px;
+  background-color: rgb(117, 0, 0);
+  flex: 1;
+  transition: all 3s ease-out;
+}
+.card2:hover {
+  flex: 2;
+  background-color: brown;
+}
+.quadrado {
+  display: flex;
+}
