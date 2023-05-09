@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  max-width: 1500px;
+  border-collapse: collapse;
+  overflow-x: scroll;
+}
+
+td,
+th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:not(:first-child):hover td {
+  background-color: #f5f5f5;
+}
+
+tr:hover {
+  background-color: #ffdddd;
+}
