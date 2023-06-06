@@ -1,4 +1,4 @@
-grid-container {
+.grid-container {
   display: grid;
   grid-template-columns: 10% 20% auto;
   gap: 20px;
@@ -6,7 +6,7 @@ grid-container {
   padding: 10px;
 }
 
-grid-item {
+.grid-item {
   background-color: gray;
   border: 1px solid black;
   padding: 20px;
